@@ -2,7 +2,6 @@
 # 这里相关参数的调整，这里我们默认词向量维数为50，窗口为5，最少词数目为5，工作数为默认系统工作数；详情请参考https://radimrehurek.com/gensim/models/word2vec.html中的说明。
 # train_word2vec_model.py
 
-'''
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import logging
@@ -29,4 +28,4 @@ if __name__ == '__main__':
     #model.init_sims(replace=True)
     model.save(outp1)
     model.save_word2vec_format(outp2, binary=False)
-'''
+
