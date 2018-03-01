@@ -5,7 +5,7 @@ def isStopWords(term):
     #seg_list = jieba.cut(question, cut_all=False, HMM=True)
     #senetence = r'吗'
     ret = []
-    ret = FI.load_pickle('D:/python34/program/tools/stop_words.pkl')
+    ret = FI.load_pickle('./stop_words.pkl')
     #print(ret)
     if(term in ret):
         return True
